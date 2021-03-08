@@ -25,7 +25,7 @@ function FitnessCategories({ fitnessCategories }) {
               return (
                 <ul key={category.id}>
                   <li>{category.categoryTitle}</li>
-                  {/* <li>{category.description}</li> */}
+                  <li>{category.description}</li>
                 </ul>
               );
             })}
