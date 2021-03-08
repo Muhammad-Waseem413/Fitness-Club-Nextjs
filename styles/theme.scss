@@ -1,0 +1,14 @@
+$line-height-base: 1.714; //override the global bootstrap style
+
+$theme-colors: (
+  "primary": #f47b20,
+  "secondary": #c1c1c1,
+  "info": #00aec7,
+  "footer": #f0f0f0,
+  "login": #f5f5f5,
+  "light": #ffffff,
+  "lightGrey": #e5e5e5,
+  "black": black,
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
